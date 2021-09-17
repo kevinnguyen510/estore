@@ -9,11 +9,11 @@
 			</a>
 			<div class="caption">
 				<p>${p.name}</p>
-				<div class="pull-right">
+				<div class="pull-right" data-id="${p.id}">
 					<button class="btn btn-sm btn-danger">
 						<i class="glyphicon glyphicon-shopping-cart"></i>
 					</button>
-					<button class="btn btn-sm btn-warning">
+					<button class="btn btn-sm btn-warning btn-star">
 						<i class="glyphicon glyphicon-star"></i>
 					</button>
 					<button class="btn btn-sm btn-success">
