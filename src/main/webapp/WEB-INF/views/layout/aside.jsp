@@ -36,9 +36,9 @@
 <div class="panel panel-default">
 	<div class="panel-heading">ĐẶC BIỆT</div>
 	<div class="list-group">
-		<a href="#" class="list-group-item">Hàng mới</a> 
-		<a href="#" class="list-group-item">Bán chạy</a> 
-		<a href="#" class="list-group-item">Yêu thích</a>
-		<a href="#" class="list-group-item">Giảm giá</a>
+		<a href="/product/list-by-special/0" class="list-group-item">Hàng mới</a> 
+		<a href="/product/list-by-special/1" class="list-group-item">Bán chạy</a> 
+		<a href="/product/list-by-special/2" class="list-group-item">Xem nhiều</a>
+		<a href="/product/list-by-special/3" class="list-group-item">Giảm giá</a>
 	</div>
 </div>

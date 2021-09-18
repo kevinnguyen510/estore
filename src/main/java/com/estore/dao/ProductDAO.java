@@ -15,7 +15,11 @@ public interface ProductDAO {
 	
 	Product delete(Integer id);
 
-	List<Product> finByCategoryId(Integer categoryId);
+	List<Product> findByCategoryId(Integer categoryId);
 
-	List<Product> finByKeywords(String keywords);
+	List<Product> findByKeywords(String keywords);
+
+	List<Product> findByIds(String ids);
+
+	List<Product> findBySpecial(Integer id);
 }
