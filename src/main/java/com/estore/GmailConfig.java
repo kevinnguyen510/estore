@@ -16,8 +16,8 @@ public class GmailConfig {
 		sender.setDefaultEncoding("utf-8");
 		sender.setHost("smtp.gmail.com");
 		sender.setPort(587);
-		sender.setUsername("trungnqts1704033@fpt.edu.vn");
-		sender.setPassword("123tRung");
+		sender.setUsername("");
+		sender.setPassword("");
 		//https://myaccount.google.com/lesssecureapps - > truy cập vào, để kích hoạt email
 		
 		Properties props = sender.getJavaMailProperties();

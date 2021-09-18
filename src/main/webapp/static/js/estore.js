@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	
+	//thêm vào danh sách yêu thích
 	$(".btn-star").click(function(){
 		var id = $(this).closest("div").attr("data-id");
 		$.ajax({
@@ -14,6 +15,7 @@ $(document).ready(function(){
 		})
 	});
 	
+	//Share thông tin sản phẩm cho bạn bè by email
 	$(".btn-open-dialog").click(function(){
 		var id = $(this).closest("div").attr("data-id");
 		$("#myModal #id").val(id);
@@ -37,6 +39,17 @@ $(document).ready(function(){
 				}else{
 					alert("Lỗi gửi email")
 				}
+			}
+		})		
+	});
+	
+	//Giỏ hàng
+	$(".btn-add-to-cart").click(function(){
+		var id = $(this).closest("div").attr("data-id");
+		$.ajax({
+			url:"/cart/add/" + id,
+			success: function(response){
+				alert(respone)
 			}
 		})		
 	})
